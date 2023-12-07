@@ -115,10 +115,10 @@ Swap:
     STUR X3, [SP, #16]
     STUR LR, [SP, #24]
 
-    LDUR X2, [X1]
-    LDUR X3, [X0]
-    STUR X2, [X0]
-    STUR X3, [X1]
+    LDUR X2, [X1, #0]
+    LDUR X3, [X0, #0]
+    STUR X2, [X0, #0]
+    STUR X3, [X1, #0]
 
     LDUR FP, [SP, #0]
     LDUR X2, [SP, #8]
